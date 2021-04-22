@@ -1,2 +1,2 @@
 # gpnPortfolio
-A e-Portfolio for my GPN Module
+An e-Portfolio for my GPN Module

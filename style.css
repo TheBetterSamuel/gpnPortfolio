@@ -1,17 +1,152 @@
 body{
     background-color: rgb(50,50,50);
     width: 100vw;
+    margin: 0;
 }
 
 h1{
     font-family: 'Quicksand', sans-serif;
     font-weight:400; 
-    font-size: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight:400; 
+    font-size: 60px;
+    color: white;
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight:400; 
+    font-size: 40px;
+    color: white;
+}
+
+h4{
+    font-family: 'Quicksand', sans-serif;
+    font-weight:400; 
+    font-size: 25px;
+    color: white;
+    margin:0;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight:400; 
+    font-size: 25px;
+    color: white;
+}
+
+button{
+    background-color: rgb(50,50,50);
+    border: 0;
+    cursor: pointer;
+    width: 15vw;
+}
+
+button:hover{
+    background-color: rgb(150,150,150);
+}
+
+button:hover > h1{
+    color: rgb(50,50,50);
 }
 
 .header{
     height: 8vh;
     display: flex;
     width: 100vw;
+    justify-content: space-between;
+}
+
+.aboutme{
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portrait{
+    width: 25%;
+    height: 80%;
+    padding-top: 5%;
+}
+
+.abouttext{
+    width: 40%;
+    height: 80%;
+    padding-top: 5%;
+}
+
+.moreinfo{
+    background-image: url("Images/background2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw;
+    text-align: center;
+    width: 100vw;
+    height: 200vh;
+    margin-top: 10vw;
+}
+.moreinfosub{
+    background-color: rgba(50,50,50,0.7);
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.GPN{
+    background-image: url("Images/background3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.GPNsub{
+    background-color: rgba(50,50,50,0.7);
+    width: 100vw;
+    height: 100vh;
+}
+
+.personal{
+    background-image: url("Images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw;
+    text-align: center;
+    width: 100vw;
+    height: 150vh;
+}
+
+.personalsub{
+    background-color: rgba(50,50,50,0.7);
+    width: 100vw;
+    height: 150vh;
+}
+
+.pgame1{
+    text-align: left;
+    padding-left: 10vw;
+    width: 80vw;
+}
+
+.linkbutton{
+    padding: 1%;
+    border-radius: 2vw;
+}
+
+.links{
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    width: 35vw;
+    display: flex;
     justify-content: space-evenly;
 }

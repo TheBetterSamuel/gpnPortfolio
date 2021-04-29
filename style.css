@@ -138,6 +138,12 @@ button:hover > h1{
     width: 80vw;
 }
 
+.workshop{
+    text-align: left;
+    padding-left: 10vw;
+    width: 80vw;
+}
+
 .linkbutton{
     padding: 1%;
     border-radius: 2vw;

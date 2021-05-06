@@ -107,13 +107,13 @@ button:hover > h1{
     background-size: 100vw;
     text-align: center;
     width: 100vw;
-    height: 100vh;
+    height: 300vh;
 }
 
 .GPNsub{
     background-color: rgba(50,50,50,0.7);
     width: 100vw;
-    height: 100vh;
+    height: 300vh;
 }
 
 .personal{

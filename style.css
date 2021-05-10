@@ -107,13 +107,13 @@ button:hover > h1{
     background-size: 100vw;
     text-align: center;
     width: 100vw;
-    height: 300vh;
+    height: 370vh;
 }
 
 .GPNsub{
     background-color: rgba(50,50,50,0.7);
     width: 100vw;
-    height: 300vh;
+    height: 370vh;
 }
 
 .personal{
@@ -153,6 +153,14 @@ button:hover > h1{
     padding-top: 10vh;
     padding-bottom: 5vh;
     width: 35vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linksProfile{
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    width: 55vw;
     display: flex;
     justify-content: space-evenly;
 }

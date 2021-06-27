@@ -91,6 +91,7 @@ button:hover > h1{
     height: 200vh;
     margin-top: 10vw;
 }
+
 .moreinfosub{
     background-color: rgba(50,50,50,0.7);
     width: 100vw;
@@ -139,6 +140,18 @@ button:hover > h1{
 }
 
 .workshop{
+    text-align: left;
+    padding-left: 10vw;
+    width: 80vw;
+}
+
+.workshop{
+    text-align: left;
+    padding-left: 10vw;
+    width: 80vw;
+}
+
+.SchProj{
     text-align: left;
     padding-left: 10vw;
     width: 80vw;

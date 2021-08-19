@@ -1,3 +1,4 @@
+  
 body{
     background-color: rgb(50,50,50);
     width: 100vw;
@@ -88,7 +89,7 @@ button:hover > h1{
     background-size: 100vw;
     text-align: center;
     width: 100vw;
-    padding: 1%;
+    height: 200vh;
     margin-top: 10vw;
 }
 
@@ -108,7 +109,7 @@ button:hover > h1{
     background-size: 100vw;
     text-align: center;
     width: 100vw;
-    padding: 1%;
+    height: 370vh;
 }
 
 .GPNsub{
@@ -124,7 +125,7 @@ button:hover > h1{
     background-size: 100vw;
     text-align: center;
     width: 100vw;
-    padding: 1%;
+    height: 150vh;
 }
 
 .personalsub{
